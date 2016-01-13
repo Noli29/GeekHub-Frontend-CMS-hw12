@@ -1,0 +1,110 @@
+header .navbar-default{
+  padding-top: 25px;
+  background-color: $color-white;
+  color: $color-white;
+  border-color: $color-white;
+  border-radius: 0;
+}
+
+header .navbar-default .navbar-nav>li>a{
+  color:  $color-white;
+}
+header .left{padding-left: 155px}
+header .h-page .navbar-default{
+  background: $color-white;
+  height: 100%;
+  width: 100%;
+  border-color: $color-white;
+  border-radius: 0;
+}
+
+.h-page .navbar-default .navbar-nav>li>a{
+  padding-left: 20px;
+  font-weight: $font-weight-h3;
+  color: $color-gray;
+  font-family: $font;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h-page .navbar-default .navbar-nav>li>a:hover{
+  border: 1px solid #9fabba;
+  padding: 4px 15px;
+  border-radius: 22px;
+  font-family: $font;
+  font-weight: $font-weight-h1;
+  line-height: 44px;
+  transition: .1s linear;
+}
+@media screen and (max-width: 479px) {
+  header .left{padding-left: 45px}
+  header .h-page .navbar-default{
+    background: $color-white;
+    height: 100%;
+    width: 100%;
+    border-color: $color-white;
+    border-radius: 0;
+  }
+
+  .h-page .navbar-default .navbar-nav>li>a{
+    padding-left: 15px;
+    font-weight: $font-weight-h3;
+    color: $color-gray;
+    font-family: $font;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .h-page .navbar-default .navbar-nav>li>a:hover{
+    border: 1px solid #9fabba;
+    padding: 4px 10px;
+    border-radius: 22px;
+    font-family: $font;
+    font-weight: $font-weight-h1;
+    line-height: 44px;
+    transition: .1s linear;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 679px) {
+  header .left{padding-left: 5px}
+}
+@media screen and (min-width: 680px) and (max-width: 769px) {
+  header .left{padding-left: 5px}
+}
+@media screen and (min-width: 770px) {
+  header .navbar-default{
+    padding-top: 25px;
+    background-color: $color-white;
+    color: $color-white;
+    border-color: $color-white;
+    border-radius: 0;
+  }
+
+  header .navbar-default .navbar-nav>li>a{
+    color:  $color-white;
+  }
+  header .left{padding-left: 155px}
+  header .h-page .navbar-default{
+    background: $color-white;
+    height: 100%;
+    width: 100%;
+    border-color: $color-white;
+    border-radius: 0;
+  }
+
+  .h-page .navbar-default .navbar-nav>li>a{
+    padding-left: 10px;
+    font-weight: $font-weight-h3;
+    color: $color-gray;
+    font-family: $font;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .h-page .navbar-default .navbar-nav>li>a:hover{
+    border: 1px solid #9fabba;
+    padding: 4px 15px;
+    border-radius: 22px;
+    font-family: $font;
+    font-weight: $font-weight-h1;
+    line-height: 44px;
+    transition: .1s linear;
+  }
+}
